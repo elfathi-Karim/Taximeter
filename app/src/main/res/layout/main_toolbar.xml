@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:paddingVertical="6dp"
+    android:paddingHorizontal="4dp"
+    android:layout_height="?attr/actionBarSize"
+    android:background="#000000"
+    android:theme="?attr/actionBarTheme" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="6dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/bg_search"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/editSearch"
+            android:layout_width="match_parent"
+            android:background="#FFEB3B"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="#03A9F4"
+            android:textCursorDrawable="@drawable/cursor_color"
+            tools:text="Place"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/imageSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_search_24"
+            app:tint="#03A9F4"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="8dp"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+</androidx.appcompat.widget.Toolbar>

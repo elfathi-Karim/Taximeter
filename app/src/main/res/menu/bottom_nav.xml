@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/baseline_person_pin_24"
+        android:title="Profile" />
+    <item
+        android:id="@+id/location"
+        android:icon="@drawable/baseline_location_on_24"
+        android:title="Location" />
+    <item
+        android:id="@+id/travel"
+        android:icon="@drawable/baseline_travel_explore_24"
+        android:title="Travel" />
+</menu>
